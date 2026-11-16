@@ -2,7 +2,7 @@
 
 ### Fluxograma do código
 
-
+```mermaid
 flowchart TD
     A([Início]) --> B[/Informar a ordem da matriz n/]
     B --> C{n >= 3?}
@@ -52,3 +52,4 @@ flowchart TD
     style S fill:#fadbd8,stroke:#c0392b
     style V fill:#d6eaf8,stroke:#2874a6
     style Y fill:#fcf3cf,stroke:#b7950b
+``
